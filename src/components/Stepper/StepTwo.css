@@ -1,0 +1,84 @@
+.step-two {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.input-section button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.tag {
+  padding: 8px 12px;
+  background-color: #eee;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.tag.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.tag button {
+  background: none;
+  border: none;
+  color: inherit;
+  margin-left: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.option-section h4 {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.success-msg {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  background-color: #007bff;
+  border-radius: 8px;
+  cursor: pointer;
+}

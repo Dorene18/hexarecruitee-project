@@ -1,0 +1,26 @@
+[
+  {
+    "company": "Google",
+    "profile": "Software Engineer Intern",
+    "appliedOn": "2025-07-01",
+    "status": "In Review"
+  },
+  {
+    "company": "Amazon",
+    "profile": "Frontend Developer",
+    "appliedOn": "2025-07-03",
+    "status": "Shortlisted"
+  },
+  {
+    "company": "Microsoft",
+    "profile": "Data Analyst",
+    "appliedOn": "2025-07-08",
+    "status": "Rejected"
+  },
+  {
+    "company": "Hexaware",
+    "profile": "Java Developer",
+    "appliedOn": "2025-07-10",
+    "status": "Interview Scheduled"
+  }
+]

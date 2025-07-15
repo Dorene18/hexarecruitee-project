@@ -1,0 +1,39 @@
+/* JobRecommendations.css */
+.job-recommendations {
+  background-color: #f1f9ff;
+  padding: 1.5rem;
+}
+
+.job-cards {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+}
+
+.job-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 260px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.08);
+  flex: 0 0 auto;
+}
+
+.badge {
+  background-color: #e6f4ff;
+  color: #007aff;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.view-details {
+  margin-top: 10px;
+  background: none;
+  border: none;
+  color: #007aff;
+  font-weight: bold;
+  cursor: pointer;
+}

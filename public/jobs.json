@@ -1,0 +1,35 @@
+[
+  {
+    "id": 101,
+    "title": "AI Engineer",
+    "company": "The Email Mafia",
+    "location": "Work From Home",
+    "salary": "12",
+    "experience": "0",
+    "jobType": "Internship",
+    "posted": "2 days",
+    "active": true
+  },
+  {
+    "id": 102,
+    "title": "Software Development",
+    "company": "DiligenceVault",
+    "location": "Work From Home",
+    "salary": "6",
+    "experience": "0",
+    "jobType": "Internship",
+    "posted": "3 days",
+    "active": true
+  },
+  {
+    "id": 103,
+    "title": "AI / LLM Engineer",
+    "company": "BeyondChats",
+    "location": "Work From Home",
+    "salary": "5",
+    "experience": "0",
+    "jobType": "Internship",
+    "posted": "1 day",
+    "active": true
+  }
+]

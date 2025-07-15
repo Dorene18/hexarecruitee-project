@@ -1,0 +1,26 @@
+/* TodoList.css */
+.todo-list {
+  background-color: white;
+  padding: 1.2rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.todo-item img {
+  width: 40px;
+  margin-right: 1rem;
+}
+
+.todo-text p {
+  margin: 0;
+  color: #555;
+  font-size: 14px;
+}

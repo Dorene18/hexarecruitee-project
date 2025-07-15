@@ -1,0 +1,152 @@
+/* Base body styling with background */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffffff 40%, #a1d3fa 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* Container for full page */
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+/* Header with logo */
+.signup-header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start; /* <-- align to left */
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 90px;
+  width: 100px;
+}
+
+/* Main box (card style) */
+.signup-box {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 40px 30px;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+/* Title with underline effect */
+.signup-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.underline-free {
+  position: relative;
+  display: inline-block;
+}
+
+.underline-free::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 100%;
+  height: 4px;
+  background-color: #00a5ec;
+  border-radius: 40px;
+  transform: scaleX(1.1);
+}
+
+/* Subtitle under title */
+.subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* Signup form */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+.signup-form input {
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  transition: border 0.2s ease;
+}
+
+.signup-form input:focus {
+  border-color: #00a5ec;
+  outline: none;
+}
+
+.email-btn {
+  background-color: #00a5ec;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.email-btn:hover {
+  background-color: #007dc5;
+}
+
+/* Terms and Login text */
+.terms,
+.login-text {
+  font-size: 13px;
+  color: #777;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.terms a,
+.login-text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Success message */
+.success-message {
+  text-align: center;
+  color: green;
+}
+
+.success-message h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 500px) {
+  .signup-box {
+    padding: 30px 20px;
+  }
+
+  .signup-header {
+    padding-left: 10px;
+  }
+}
